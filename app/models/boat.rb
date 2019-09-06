@@ -40,6 +40,6 @@ class Boat < ActiveRecord::Base
   end
 
   def self.longest
-    # order('length DESC').first
+    order('length DESC').first
   end
 end
